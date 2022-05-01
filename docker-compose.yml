@@ -11,7 +11,7 @@ services:
       - "8081:8081"
   api:
     restart: always
-    image: mangila/spring-reactive-r2dbc
+    image: mangila/spring-reactive-mongodb
     ports:
       - "8080:8080"
     depends_on:
