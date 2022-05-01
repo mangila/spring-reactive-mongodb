@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+  mongo-express:
+    image: mongo-express
+    depends_on:
+      - mongo
+    ports:
+      - "8081:8081"

@@ -1,0 +1,17 @@
+# Netty properties
+server:
+  http2:
+    enabled: true
+# Spring properties
+spring:
+  data:
+    mongodb:
+      database: mangila_db
+      gridfs:
+        database: mangila_db_images
+# Springdocs properties
+springdoc:
+  api-docs:
+    path: /swagger-doc/v3/api-docs
+  swagger-ui:
+    path: /swagger-doc/swagger-ui.html
