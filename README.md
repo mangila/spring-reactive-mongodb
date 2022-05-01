@@ -1,5 +1,5 @@
 # spring-reactive-mongodb
-Multipart form-data upload Reactive RESTful service.
+Multipart form-data upload and download Reactive RESTful service.
 * Store Files to Mongodb GridFS database
 * Store Objects to Mongodb
 
